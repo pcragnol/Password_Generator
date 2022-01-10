@@ -15,6 +15,7 @@ body,
 body {
   font-family: sans-serif;
   background-color: #f9fbfd;
+  text-align: center;
 }
 
 .wrapper {
@@ -24,7 +25,6 @@ body {
 }
 
 header {
-  text-align: center;
   padding: 20px;
   padding-top: 0px;
   color: hsl(206, 17%, 28%);
@@ -54,10 +54,6 @@ header {
   min-height: 100px;
 }
 
-.card-footer {
-  text-align: center;
-}
-
 .card-footer::before {
   content: " ";
   display: block;
@@ -84,7 +80,6 @@ header {
   line-height: 22px;
   margin: 16px 16px 16px 20px;
   padding: 14px 34px;
-  text-align: center;
   cursor: pointer;
 }
 
